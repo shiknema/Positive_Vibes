@@ -1,0 +1,14 @@
+html
+       head
+            meta(charset='UTF-8')
+            title Covid Page
+            link(rel='stylesheet', type='text/css', href='index.css')
+       body
+            h1 Please add Name
+            h3
+                form(action="/add" method="post")
+                        label(for="name") Name
+                        input(type="text" id="name" name="name")
+                        br
+                        input(class="submitButton" type="submit" value="Submit")
+            a(class='button', href="/") Back to Home Page
