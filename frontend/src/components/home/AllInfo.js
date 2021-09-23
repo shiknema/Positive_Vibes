@@ -25,12 +25,12 @@ import { Text } from '../../containers/Language';
                             <div className="col-sm-6 " id ="Covid_Info">
                                 <h4 > <Text tid="CovidCasesInSweden" /></h4> 
                                 <div className="card-body colour">
-                                <ul >
-                                    <li><Text tid="ConfirmedCases" /> = {this.state.jsonObject.confirmed.value}</li>
+                                <ul><b>
+                                    <li><Text tid="ConfirmedCases" /> ={this.state.jsonObject.confirmed.value}</li>
                                     <li><Text tid="RecoveredCases" /> = {this.state.jsonObject.recovered.value}</li>
                                     <li><Text tid="TotalDeaths" /> = {this.state.jsonObject.deaths.value}</li>
                                     <li><Text tid="LastUpdate" />= {this.state.jsonObject.lastUpdate}</li> 
-                               </ul> 
+                                    </b></ul> 
                              </div>  
                            </div>  
                      

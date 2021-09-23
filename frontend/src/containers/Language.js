@@ -18,8 +18,7 @@ export function LanguageProvider(props) {
     language,
     dictionary,
     setLanguage: (selectedLanguage) => (
-      setLanguage(selectedLanguage),
-      setDictionary(dictionaryList[selectedLanguage.id])
+      setLanguage(selectedLanguage) , setDictionary(dictionaryList[selectedLanguage.id])
       )
   };
 
@@ -28,11 +27,11 @@ export function LanguageProvider(props) {
       {props.children}
     </LanguageContext.Provider>
   );
-};
+}
 
 // get text according to id & current language
 export function Text(props) {
   const languageContext = useContext(LanguageContext);
 
   return (languageContext.dictionary[props.tid]);
-};
+}

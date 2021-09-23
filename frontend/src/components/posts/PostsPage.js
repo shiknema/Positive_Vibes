@@ -59,12 +59,10 @@ class PostsPage extends React.Component {
     }
 
     render() {
-        const posts = this.state.posts;
-
+        // posts = this.state.posts;
         return (
             <div className="background-image">
                 
-
                 {this.state.posts.map(post => 
                     <PostCard key={post.id} post={post} onDeleteClick={() => this.deletePost(post)} onUpdateClick={(post) => this.updatePost(post)}/>
                 )}

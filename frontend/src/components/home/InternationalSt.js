@@ -85,44 +85,44 @@ class InternationalSt extends Component {
                         <Container  >
                         <Row >
                             < Col >
-                                 <img src={KTH}  className ="img_height" /><br></br>
+                                 <img src={KTH}  className ="img_height" alt="" /><br></br>
                                  <a className="a" target="blank" href='https://intra.kth.se/en/campus/sakerhet/kris/corona/information-till-studenter-med-anledning-av-coronaviruset-1.965905'>KTH-University</a>
                              </Col > 
                             < Col  >
-                                 <img src={Linköping}  className =" img_height" /><br></br>
+                                 <img src={Linköping}  className =" img_height" alt="Linköping" /><br></br>
                                  <a className="a" target="blank" href="https://insidan.liu.se/HR-Personal/coronavirus?l=sv">Linköping-University</a>
                             </Col > 
                              < Col >
-                                 <img src={Karolinska}  className =" img_height" /><br></br>
+                                 <img src={Karolinska}  className =" img_height" alt="karolinska"/><br></br>
                                  <a className="a" target="blank" href="https://news.ki.se/information-about-the-coronavirus-for-staff-and-students">Karolinska-University</a>
                              </Col >      
                         </Row> 
                         <Row >
                             < Col >
-                                 <img src={Lund}  className ="img_height" /><br></br>
+                                 <img src={Lund}  className ="img_height" alt="lund"/><br></br>
                                  <a className="a" target="blank" href="https://www.lu.se/studera/coronavirusetcovid-19-information-for-studenter#">Lund-University</a>
                              </Col > 
                             < Col  >
-                                 <img src={BTH}  className =" img_height" /><br></br>
+                                 <img src={BTH}  className =" img_height" alt="bth"/><br></br>
                                  <a className="a" target="blank" href="https://www.bth.se/eng/emergency/corona/information-for-students/">BTH-University</a>
                             </Col > 
                              < Col  >
-                                 <img src={Dalarna}  className =" img_height" /><br></br>
+                                 <img src={Dalarna}  className =" img_height"  alt="dalarna"/><br></br>
                                  <a className="a" target="blank" href="https://www.du.se/en/information-about-the-coronavirus-for-staff-and-students/">Dalarna-University</a>
                              </Col >      
                         </Row> 
 
                         <Row >
                             < Col >
-                                 <img src={Uppsala}  className =" img_height" /><br></br>
+                                 <img src={Uppsala}  className =" img_height" alt="uppsala"/><br></br>
                                  <a className="a" target="blank" href="https://www.uu.se/en/students/recommendations-on-coronavirus/">Uppsala-University</a>
                              </Col > 
                             < Col  >
-                                 <img src={Goteborg}  className ="img_height" /><br></br>
+                                 <img src={Goteborg}  className ="img_height" alt="goteborg" /><br></br>
                                  <a className="a" target="blank" href="https://studentportal.gu.se/english/coronavirus;jsessionid=lfnyo9i1p2ejvo7zhty8zlaf?skipSSOCheck=true&referer=https%3A%2F%2Futbildning.gu.se%2Feducation%2Fincoming-student%2Fcovid19">University of Gothenburg</a>
                             </Col > 
                              < Col  >
-                                 <img src={Jönköping}  className ="img_height" /><br></br>
+                                 <img src={Jönköping}  className ="img_height" alt="jönköping" /><br></br>
                                  <a className="a" target="blank" href='https://ju.se/om-oss/jonkoping-university/informationsmaterial/uppdaterad-information-med-anledning-av-coronaviruset.html'>Jönköping-University</a>      
                              </Col >      
                         </Row> 

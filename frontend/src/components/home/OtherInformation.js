@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import SideBar from '../layout/SideBar.js';
 
 class OtherInformation extends Component {
     render() {
@@ -19,7 +18,7 @@ class OtherInformation extends Component {
                     <div class="col-lg-4">
                         <div class="our-team-main">
                             <div class="team-front">
-                            <img src="http://placehold.it/110x110/e91e63/fff?text=Culture" class="img-fluid" />
+                            <img src="http://placehold.it/110x110/e91e63/fff?text=Culture" class="img-fluid" alt="img"/>
                             <h3>Culture & Museums</h3>
                             
                             </div>
@@ -34,52 +33,45 @@ class OtherInformation extends Component {
                                 has virtual tours of 500 top attractions around the world, including national galleries from around the world, individual artist museums, and even the Eiffel Tower.
                                 </span>
                             </div>
-                        
                         </div>
                     </div>
 
                     <div class="col-lg-4">
                         <div class="our-team-main">
-                        
                             <div class="team-front">
-                                <img src="http://placehold.it/110x110/607d8b/fff?text=Courses" class="img-fluid" />
+                                <img src="http://placehold.it/110x110/607d8b/fff?text=Courses" class="img-fluid" alt="img"/>
                                 <h3>Free Courses</h3>
                             </div>
-                            
                             <div class="team-back">
                                 <span>
-                                We can utilise quarantine to acquire <a href='https://www.pcmag.com/news/quarantine-and-learn-free-online-classes-you-can-take-now'>new skills</a> 
+                                 We can utilise quarantine to acquire <a href='https://www.pcmag.com/news/quarantine-and-learn-free-online-classes-you-can-take-now'>new skills</a> 
                                  or learn long pending course in our wish list or update ourselves on <a href='https://www.edx.org/'>latest Technology.</a>
                                 </span>
                             </div>
-                        
                         </div>
                     </div>
 
                     <div class="col-lg-4">
                         <div class="our-team-main">
-                        
                             <div class="team-front">
-                                <img src="http://placehold.it/110x110/4caf50/fff?text=Relax" class="img-fluid" />
+                                <img src="http://placehold.it/110x110/4caf50/fff?text=Relax" class="img-fluid" alt="img"/>
                                 <h3>Time to relax</h3>
                             </div>
                             
                             <div class="team-back">
                                 <span>
-                            After all We  need some pampering . you can watch movies by <a href='http://www.openculture.com/freemoviesonline'>clicking here</a> and relax and enjoy your me time.
+                                After all We  need some pampering . you can watch movies by <a href='http://www.openculture.com/freemoviesonline'>clicking here</a> and relax and enjoy your me time.
                                 Without <a href='https://www.grammy.com/grammys/news/watch-list-livestreaming-concerts-coronavirus-quarantine'>music</a>, 
                                 life would be a mistake. Here is the details of online concerts around the globe
                                 <a href='https://www.udemy.com/topic/cooking/free/'>Cooking </a>
                                 is about creating something delicious for someone else
                                 </span>
                             </div>
-                        
                         </div>
                     </div>
                 </div>
             </div>
 </>
-
 
         );
     }

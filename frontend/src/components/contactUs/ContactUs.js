@@ -43,8 +43,7 @@ class ContactUs extends React.Component {
                         <div className="form-group row ">
                             <label for="name" class="col-sm-2 col-form-label"><Text tid="name" /></label>
 
-                            <textarea className="form-control is-valid"
-                                className="form-control col-sm-8"
+                            <textarea className="form-control is-valid col-sm-8"
                                 placeholder="Type your name here"
                                 value={this.state.name}
                                 onChange={e => this.setState({ name: e.target.value })} id="name" required />
@@ -53,10 +52,10 @@ class ContactUs extends React.Component {
                             </div>
                         </div>
 
+                
                         <div className="form-group row">
                             <label for="email" class="col-sm-2 col-form-label"><Text tid="EmailAddress" /></label>
-                            <textarea className="form-control is-invalid"
-                                className="form-control col-sm-8"
+                            <textarea className="form-control is-invalid col-sm-8"
                                 placeholder="name@example.com"
                                 value={this.state.emailAddress}
                                 onChange={e => this.setState({ emailAddress: e.target.value })} id="EmailAddress" required />
@@ -69,8 +68,7 @@ class ContactUs extends React.Component {
                             <label for="message" class="col-sm-2 col-form-label"> <Text tid="Message" /></label>
 
                             <textarea rows="10"
-                                className="form-control is-invalid"
-                                className="form-control col-sm-8"
+                                className="form-control is-invalid col-sm-8"
                                 placeholder="Type your message here"
                                 value={this.state.message}
                                 onChange={e => this.setState({ message: e.target.value })} id="message" required />

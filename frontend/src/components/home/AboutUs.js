@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import aboutUs from "./aboutUs.jpg";
 import { Container, Row, Col } from 'react-bootstrap';
 import Shikha from "./Images/shikha.png";
 import Archana from "./Images/Archana.png";
@@ -43,7 +42,7 @@ class AboutUs extends Component {
                             <Col md={{ span: 2, offset: 2 }}><img src={Shikha} alt="avatar" class="avatar" /></Col>
                             <Col md={{ span: 6, offset: 0 }}>
                                 <h4>Shikha Gupta</h4>
-                            <p><i>"You ar confined only by THE WALLS you build yourself."</i></p>
+                            <p><i>"You are confined only by THE WALLS you build yourself."</i></p>
                             </Col>
                         </Row>
                         <hr className="hrset" />

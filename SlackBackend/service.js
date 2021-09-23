@@ -6,7 +6,7 @@ var cors = require('cors');
 app.use(cors());
 var server = require('http').createServer(app);
 app.use(bodyParser.json());
-const SLACK_WEBHOOK_URL = ("https://hooks.slack.com/services/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")
+const SLACK_WEBHOOK_URL = ("https://hooks.slack.com/services/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")
 //const urlencodedParser = bodyParser.urlencoded({ extended: false });
 const { IncomingWebhook } = require('@slack/webhook');
 const url = SLACK_WEBHOOK_URL;
@@ -16,9 +16,6 @@ const webhook = new IncomingWebhook(url);
 app.use(express.static(__dirname + '/static')); 
 app.set('view engine', 'jade');
 
-app.get('/add', function (req, res) {
-  res.render('add')
-})
 app.get('/contact', function (req, res) {
   res.sendFile(__dirname + '/static/contact.html')
 })
@@ -51,9 +48,7 @@ app.post('/contact',
       }
       
 )
-app.post('/add', function (req, res) {
-  res.render('covid', {name: req.body.name})
-})
+
 // start listening 
 server.listen(5000, function () {
   console.log('service is listening on http://localhost:5000');
