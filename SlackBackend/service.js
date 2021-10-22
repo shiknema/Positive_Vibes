@@ -6,7 +6,7 @@ var cors = require('cors');
 app.use(cors());
 var server = require('http').createServer(app);
 app.use(bodyParser.json());
-const SLACK_WEBHOOK_URL = ("https://hooks.slack.com/services/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")
+const SLACK_WEBHOOK_URL = ("https://hooks.slack.com/services/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")
 //const urlencodedParser = bodyParser.urlencoded({ extended: false });
 const { IncomingWebhook } = require('@slack/webhook');
 const url = SLACK_WEBHOOK_URL;
