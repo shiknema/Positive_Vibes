@@ -47,10 +47,11 @@ class Under3Years extends Component {
                         </p>
                         </div>
                         <CardColumns>
-                            <Card className="bg-dark text-black">
-                                <Card.Img className="image_gradient tranperency" src={Educational} alt="Card image" />
+                            <Card className="bg-light text-black">
+                                <Card.Img className="image_gradient tranperency" src={Educational} alt="Card image" style={{opacity: 0.7}}/>
                                 <Card.ImgOverlay>
                                     <Card.Title ><u>Educational Activities</u></Card.Title>
+                                    <br/>
                                     <Card.Text >
                                         <a className="a" target="blank" href='https://www.abcya.com/grades/prek'>Lets Learn with Fun</a>
                                         <p></p>
@@ -60,10 +61,11 @@ class Under3Years extends Component {
                                     </Card.Text>
                                 </Card.ImgOverlay>
                             </Card>
-                            <Card className="bg-dark text-black">
-                                <Card.Img className="image_gradient tranperency " src={Fun} alt="Card image" />
+                            <Card className="bg-light text-black">
+                                <Card.Img className="image_gradient tranperency " src={Fun} alt="Card image" style={{opacity: 0.7}} />
                                 <Card.ImgOverlay>
                                     <Card.Title>T<u>o become more Creative Activities</u></Card.Title>
+                                    <br/>
                                     <Card.Text >
                                         <a className="a" target="blank" href="https://www.funbrain.com/pre-k-and-k-playground">Online Playground </a>
                                         <p></p>
@@ -74,10 +76,11 @@ class Under3Years extends Component {
                                 </Card.ImgOverlay>
                             </Card>
                             <br></br>
-                            <Card className="bg-dark text-blank">
-                                <Card.Img className="image_gradient tranperency" src={Fitness} alt="Card image" />
+                            <Card className="bg-light text-blank">
+                                <Card.Img className="image_gradient tranperency" src={Fitness} alt="Card image" style={{opacity: 0.7}}/>
                                 <Card.ImgOverlay>
                                     <Card.Title><u>Fitness</u></Card.Title>
+                                    <br/>
                                     <Card.Text>
                                     <a className="a" target="blank" href="https://activeforlife.com/49-fun-physical-activities-to-do-with-kids-aged-2-to-4/">Physical Activities at home</a>
                                     <p></p>

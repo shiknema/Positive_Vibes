@@ -1,5 +1,5 @@
-# Positive_Vibes
-### Educational Open Application
+# SDA-Major-project
+## Positive Vibes
 #### As we hear Covid 19 first thing that comes to our minds is fear hence we were interested to share our positive experiences because of Covid 19 ? People are struggling to lead normal life and motivating themselves to be normal. So we want to spread some positivity and give some motivations to all the students of different age groups by suggesting activities and by providing some important details for their schoolings. Keeping discusions forum in our website we believe we are bringing everyone together too. Say we save lot of travel time. That time we are able to spend with our dear ones and kids.We kept student group as target group since it can be one place for kids parents and adults anyone to get the information.
 
 #### The discussion forum is an open place for anyone to discuss on any topic for that category or any doubts were other can give suggestions. So they can share their positivity to other and motivate them.

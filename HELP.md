@@ -17,3 +17,12 @@ The following guides illustrate how to use some features concretely:
 
 Website lunch on-
 https://websiteskeleton.herokuapp.com/home.html
+
+
+### How to run Docker Image
+First open GIT Bash command prompt through , where your docker-cpmpose.yaml file saved.
+
+
+### run-- docker-compose up
+
+after that again run java program

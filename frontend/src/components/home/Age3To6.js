@@ -58,24 +58,26 @@ class Age3To6 extends Component {
                           </div>
                         <p></p>
                         <CardColumns>
-                            <Card className="bg-dark text-black">
-                                <Card.Img className="image_gradient" src={Educational} alt="Card image" />
+                            <Card className="bg-light text-maroon">
+                                <Card.Img className="image_gradient" src={Educational} alt="Card image" style={{opacity: 0.7}}/>
                                 <Card.ImgOverlay>
-                                    <Card.Title><u>Educational Activities</u></Card.Title>
-                                    <Card.Text className="transbox ">
+                                    <Card.Title><u> Educational Activities</u> </Card.Title>
+                                    <br/>
+                                    <Card.Text>
                                         <a className="a" target="blank" href='https://www.starfall.com/h/'>Learning made fun</a>
                                         <p></p>
-                                        <a className="a" target="blank" href='https://allinonehomeschool.com/'>All in one Home School</a>
+                                        <a className="a" target="blank" href='https://allinonehomeschool.com/'> All in one Home School </a>
                                         <p></p>
                                         <a className="a" target="blank" href='https://classroommagazines.scholastic.com/support/learnathome.html'>Lets Learn from Home</a>
                                     </Card.Text>
                                 </Card.ImgOverlay>
                             </Card>
-                            <Card className="bg-dark text-black">
-                                <Card.Img className="image_gradient " src={Fun} alt="Card image" />
+                            <Card className="bg-light text-maroon">
+                                <Card.Img className="image_gradient " src={Fun} alt="Card image" style={{opacity:0.7}}/>
                                 <Card.ImgOverlay>
-                                    <Card.Title><u>To become more Creative Activities</u></Card.Title>
-                                    <Card.Text className="transbox ">
+                                    <Card.Title><u>Creative Activities</u></Card.Title>
+                                    <br/>
+                                    <Card.Text>
                                         <a className="a" target="blank" href="https://www.mom365.com/preschool/development/10-fun-activities-to-do-with-your-preschooler">Unboxing Creativity</a>
                                         <p></p>
                                         <a className="a" target="blank" href="https://www.freechildrenstories.com/age-3-5">Story Time</a>
@@ -85,11 +87,12 @@ class Age3To6 extends Component {
                                 </Card.ImgOverlay>
                             </Card>
                             <br></br>
-                            <Card className="bg-dark text-blank">
-                                <Card.Img className="image_gradient" src={Fitness} alt="Card image" />
+                            <Card className="bg-light text-maroon">
+                                <Card.Img className="image_gradient" src={Fitness} alt="Card image"  style={{opacity: 0.7}}/>
                                 <Card.ImgOverlay>
                                     <Card.Title><u>Fitness</u></Card.Title>
-                                    <Card.Text className="transbox ">
+                                    <br/>
+                                    <Card.Text >
                                         <a className="a" target="blank" href="https://youtu.be/iWowDC3x0hE">Cosmic Yoga for Kids</a>
                                         <p> </p>
                                         <a className="a" target="blank" href="https://youtu.be/0TgLtF3PMOc">Jack Hartman Music Channel</a>

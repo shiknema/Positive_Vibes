@@ -89,10 +89,11 @@ class Age6To15 extends Component {
                       </div>
                     <p></p>
                     <CardColumns>
-                        <Card className="bg-dark text-black">
-                        <Card.Img className="image_gradient " src={Educational} alt="Card image" />
+                        <Card className="bg-light text-maroon">
+                        <Card.Img className="image_gradient " src={Educational} alt="Card image" style={{opacity : 0.7}} />
                      <Card.ImgOverlay>
                            <Card.Title><u>Educational Activities</u></Card.Title>
+                           <br/>
                                 <Card.Text>
                                 <a className="a" target="blank" href='https://www.brainpop.com/'>Brain Pop</a>
                                 <p></p>
@@ -102,10 +103,12 @@ class Age6To15 extends Component {
                              </Card.Text>
                             </Card.ImgOverlay>
                         </Card>
-                        <Card className="bg-dark text-black">
+
+                        <Card className="bg-light text-maroon">
                             <Card.Img  className="image_gradient tranperency" src={Fun} alt="Card image" />
                             <Card.ImgOverlay>
-                                <Card.Title><u>To become more Creative Activities</u></Card.Title>
+                                <Card.Title><u>Creative Activities</u></Card.Title>
+                                <br/>
                             <Card.Text>
                              <a  className ="a" target="blank" href="https://www.classicly.com/young-readers">Books is a  Treasure</a>
                              <p></p>
@@ -115,10 +118,12 @@ class Age6To15 extends Component {
                              </Card.Text>
                              </Card.ImgOverlay>
                              </Card>
-                             <Card className="bg-dark text-black">
+
+                             <Card className="bg-light text-maroon">
                                 <Card.Img  className="image_gradient tranperency" src={Fitness} alt="Card image"/>
                                  <Card.ImgOverlay>
                                     <Card.Title><u>Fitness</u></Card.Title>
+                                    <br/>
                                 <Card.Text>
                                  <a className ="a" target="blank" href="https://youtu.be/McD6_oOWs-M">Execrise is Vital</a>
                                  <p> </p>

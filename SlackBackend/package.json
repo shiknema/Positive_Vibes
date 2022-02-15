@@ -1,7 +1,7 @@
 {
-  "name": "js-example",
+  "name": "slack-backend",
   "version": "1.0.0",
-  "description": "An example of JS frontend & backend",
+  "description": "connect contactUs page with Slack ",
   "main": "service.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

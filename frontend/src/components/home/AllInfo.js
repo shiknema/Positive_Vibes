@@ -9,13 +9,13 @@ import { Text } from '../../containers/Language';
         this.state = { 
           jsonObject: null, 
         }
-    };
+    }
 
     componentDidMount() {
         fetch('https://covid19.mathdro.id/api/countries/sweden')
           .then(response => response.json())
           .then( json => {this.setState({ jsonObject: json })})
-    };
+    }
 
     render() {
         if(this.state.jsonObject!=null)  {
@@ -36,7 +36,7 @@ import { Text } from '../../containers/Language';
                      
                        </div>  
                 </div>  
-            );
+            )
         }
         else {
             return(
